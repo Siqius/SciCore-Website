@@ -269,8 +269,9 @@ footer {
     a {
       display: flex;
       flex-direction: row;
-      margin-right: 0;
-      gap: 10%;
+      width: 30%;
+      margin: 0;
+      gap: 20px;
     }
   }
 
