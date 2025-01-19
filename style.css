@@ -260,8 +260,7 @@ footer {
 .footer-section {
   width: 15%;
   height: 100%;
-  padding-left: 5%;
-  padding-top: 1%;
+  padding: 1% 5% 0 5%;
   display: flex;
   flex-direction: column;
 
@@ -311,4 +310,9 @@ footer {
   aspect-ratio: 1/1;
   font-size: 0;
   line-height: 0;
+}
+
+footer img {
+  margin: auto 5% auto auto;
+  height: 50%;
 }
