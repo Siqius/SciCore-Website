@@ -24,7 +24,7 @@ body {
 #top-div {
   height: 80%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://images-ext-1.discordapp.net/external/3QfSF7ENdZPCyke0pyXuyqK6NLeZ7SXWt72aoSGnDS4/%3Fga%3DGA1.1.738955084.1737234890%26semt%3Dais_incoming/https/img.freepik.com/premium-photo/rays-light-water-abstract-marine-background-nature-landscape-rays-blurred_548821-27673.jpg?format=webp");
+    url("./assets/testsub.png");
   background-size: cover;
 }
 
