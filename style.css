@@ -53,7 +53,7 @@ header {
 }
 
 #left-header p {
-  font-size: 1.6vw;
+  font-size: 2vw;
   margin-left: 10%;
   line-height: 100%;
 }
@@ -233,10 +233,14 @@ a {
 
 .name {
   font-size: 1.6vw;
+  width: 150%;
+  text-align: center;
 }
 
 .titles {
-  font-size: 0.7vw;
+  font-size: 1.05vw;
+  width: 150%;
+  text-align: center;
   color: rgb(163, 163, 163);
   user-select: text;
   margin-bottom: 2%;
