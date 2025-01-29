@@ -15,8 +15,8 @@ html {
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
+  width: 100dvw;
+  height: 100dvh;
   background-color: black;
   overflow-x: hidden;
 }
@@ -276,6 +276,11 @@ footer {
   &:first-of-type {
     border-right: solid rgba(0, 0, 0, 0.298) 2px;
   }
+
+  &:last-of-type {
+    align-items: end;
+    width: 70%;
+  }
 }
 
 .title {
@@ -284,6 +289,7 @@ footer {
   margin-top: 5%;
   margin-bottom: 2%;
   display: flex;
+  margin: 0;
 }
 
 .footer-content {
@@ -303,7 +309,7 @@ footer {
       display: flex;
       flex-direction: row;
       align-items: center;
-      width: 30%;
+      width: fit-content;
       gap: 20px;
     }
   }
@@ -312,6 +318,13 @@ footer {
     font-size: 1.1vw;
     user-select: text;
   }
+}
+
+.email-logo {
+  margin: 0;
+  height: 100%;
+  aspect-ratio: 1/1;
+  margin-top: 1%;
 }
 
 .social-media-logo {
@@ -345,7 +358,7 @@ footer img {
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin-top: 8%;
+    margin-top: 5%;
     gap: 5%;
 
     a {
@@ -422,8 +435,57 @@ footer img {
 
   footer {
     flex-direction: column;
+    height: 60%;
   }
-  .footer-content p {
-    font-size: 5vw;
+
+  .footer-section {
+    width: 100% !important;
+    height: 33.3%;
+    padding: 0;
+    .title h2 {
+      width: 100%;
+      font-size: 8vw;
+      text-align: center;
+      font-weight: 600;
+    }
+    &:first-of-type {
+      border-right: none;
+    }
+
+    &:last-of-type {
+      justify-content: center;
+      align-items: center;
+      img {
+        margin: 0;
+        height: 90%;
+        aspect-ratio: 1/1;
+      }
+    }
+  }
+
+  .email-logo {
+    margin: 0;
+    height: 100%;
+    aspect-ratio: 1/1;
+    margin-top: 1%;
+  }
+
+  .footer-content {
+    border: none;
+    gap: 5%;
+    align-items: start;
+
+    div a img {
+      margin: 0;
+    }
+
+    a,
+    p {
+      font-size: 6vw;
+    }
+    a {
+      text-decoration: underline;
+      margin: 0;
+    }
   }
 }
