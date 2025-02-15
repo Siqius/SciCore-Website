@@ -3,10 +3,12 @@ let bodyWidth = window.innerWidth;
 
 const body = document.querySelector("body");
 
-body.style.height = `${bodyHeight}px`;
-body.style.width = `${bodyWidth}px`;
+window.innerHeight = `${bodyHeight}px`;
+window.innerWidth = `${bodyWidth}px`;
 
 window.addEventListener("resize", (e) => {
-  body.style.height = `${bodyHeight}px`;
-  body.style.width = `${bodyWidth}px`;
+  window.innerHeight = `${bodyHeight}px`;
+  window.innerWidth = `${bodyWidth}px`;
+  // body.style.height = `${bodyHeight}px`;
+  // body.style.width = `${bodyWidth}px`;
 });
