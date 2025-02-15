@@ -1,5 +1,10 @@
 let bodyHeight = window.innerHeight;
 let bodyWidth = window.innerWidth;
 
-document.querySelector("body").style.height = bodyHeight;
-document.querySelector("body").style.width = bodyWidth;
+const body = document.querySelector("body");
+
+window.addEventListener("resize", (e) => {
+  body.style.height = bodyHeight;
+  body.style.width = bodyWidth;
+  e.preventDefault();
+});
