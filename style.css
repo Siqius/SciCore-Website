@@ -274,6 +274,7 @@ footer {
   }
 
   &:last-of-type {
+    padding-top: 0;
     align-items: end;
     width: 70%;
   }
@@ -321,7 +322,7 @@ footer {
   margin: 0;
   height: 100%;
   aspect-ratio: 1/1;
-  margin: 0 15% 0 0;
+  margin: 0 1vw 0 0;
 }
 
 .social-media-logo {
@@ -361,7 +362,7 @@ footer img {
 
     a {
       font-size: 5vw;
-      
+
       &:first-child {
         margin-right: 3%;
       }
@@ -466,9 +467,7 @@ footer img {
   }
 
   .email-logo {
-    margin: 0 3vw 0 0;
-    height: 100%;
-    aspect-ratio: 1/1;
+    height: 180%;
   }
 
   .footer-content {
@@ -479,6 +478,15 @@ footer img {
     div {
       width: 100%;
       justify-content: center;
+
+      a {
+        width: 100%;
+        justify-content: center;
+
+        img {
+          margin-right: 3vw;
+        }
+      }
     }
 
     a,
