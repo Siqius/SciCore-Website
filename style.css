@@ -311,6 +311,10 @@ footer {
   height: 100%;
   margin-left: 25%;
   padding-right: 0;
+
+  iframe {
+    height: 75%;
+  }
 }
 
 .title {
@@ -544,10 +548,13 @@ footer img {
       margin: 0 3vw 0 0;
     }
   }
-  .itchio {
+  #itchio {
     width: 100vw;
+    margin-left: 0;
+    height: 100%;
   }
-  .itchio iframe {
-    width: 100vw !important;
+  #itchio iframe {
+    width: 100vw;
+    height: 100%;
   }
 }
