@@ -164,7 +164,7 @@ a {
     user-select: text;
     font-size: 1.7vw;
     max-width: 80%;
-    font-weight: 3000;
+    font-weight: 100;
   }
 
   a {
@@ -188,7 +188,7 @@ a {
 }
 
 .strong {
-  font-weight: bold;
+  font-weight: bold !important;
   margin-right: 11%;
 }
 
