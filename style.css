@@ -23,8 +23,7 @@ body {
 
 #top-div {
   height: 80%;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.646)),
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.646)),
     url("./assets/Screenshot\ 2025-03-04\ 183659.png");
   background-size: cover;
   background-position: bottom;
@@ -143,7 +142,6 @@ a {
 
   background-position: center;
   background-size: cover;
-
 }
 
 #text-div {
@@ -166,17 +164,32 @@ a {
     user-select: text;
     font-size: 1.7vw;
     max-width: 80%;
-    font-weight: 100;
+    font-weight: 3000;
   }
 
   a {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     width: fit-content;
+  }
+
+  #interact-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    width: 80%;
+  }
+
+  .interact-div {
+    display: flex;
+    flex-direction: column;
+    font-size: 2vw;
+    width: 50%;
   }
 }
 
 .strong {
   font-weight: bold;
+  margin-right: 11%;
 }
 
 #about {
@@ -187,15 +200,14 @@ a {
   padding-bottom: 10%;
   align-items: center;
   justify-content: center;
-  
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)),
+
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
     url("assets/LOL.png");
 
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #about-text-div {
@@ -265,11 +277,6 @@ footer {
   flex-direction: row;
   border-top: 5px solid rgb(4, 4, 4);
 
-  
-
-
-
-
   h2 {
     font-size: 1.4vw;
     font-weight: normal;
@@ -279,19 +286,31 @@ footer {
 .footer-section {
   width: 15%;
   height: 100%;
-  padding: 1% 5% 0 5%;
+  padding: 1% 3% 0 3%;
   display: flex;
   flex-direction: column;
 
   &:first-of-type {
     border-right: solid rgba(0, 0, 0, 0.298) 2px;
+    align-items: center;
+    h2 {
+      text-align: center;
+    }
   }
 
   &:last-of-type {
     padding-top: 0;
     align-items: end;
-    width: 70%;
+    width: 6%;
   }
+}
+
+#itchio {
+  width: 30%;
+  margin-top: 0.5%;
+  height: 100%;
+  margin-left: 25%;
+  padding-right: 0;
 }
 
 .title {
@@ -418,8 +437,12 @@ footer img {
       font-size: 5vw;
     }
 
+    .strong {
+      font-size: 4.4vw;
+    }
+
     a {
-      font-size: 7vw;
+      font-size: 4.5vw;
       text-decoration: underline;
     }
   }
@@ -520,5 +543,11 @@ footer img {
       text-decoration: underline;
       margin: 0 3vw 0 0;
     }
+  }
+  .itchio {
+    width: 100vw;
+  }
+  .itchio iframe {
+    width: 100vw !important;
   }
 }
